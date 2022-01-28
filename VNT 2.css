@@ -53,9 +53,9 @@ html, body {
 /* Banner Image & Text - Home Page (with help from https://www.w3schools.com)*/
 
 .banner-img {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Root/IMG/IMG_0782.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_0782.jpg");
   background-color: black;
-  height: 98%;
+  height: 99%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,9 +104,9 @@ html, body {
   }
 /* Background Pg */
 .background-img {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Root/IMG/IMGP4637.JPG");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMGP4637.JPG");
   background-color: black;
-  height: 98%;
+  height: 120%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,11 +115,16 @@ html, body {
 #background-text {
   text-align: right;
   position: absolute;
-  top: 70%;
-  left: 65%;
-  /* right:25%; */
+  max-width: 400px;
+  top: 60%;
+  left: 40%;
   transform: translate(-50%, -50%);
   color: orange;
+}
+#blurb {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  padding: 20px;
+  margin: 10px;
 }
 /* resume styling  */
 .container .resume-item {
@@ -143,7 +148,10 @@ h2 {
   padding-top: 0px;
   margin-top: 5px;
 }
-
+p {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.5em;
+}
 
 /* img {
     display: block;
