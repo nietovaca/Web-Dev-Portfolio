@@ -19,19 +19,14 @@ $('.accordionItem').accordion({
   "animate":true,
   "collapsible":true
 });
-// const $nav = $('#navlinks');
-// $nav.on('click', () => {
-//   if ($nav.css('display', 'block')) {
-//       $nav.css('display', 'none')
-//   } else {
-//     $nav.css('display', 'block')
-//   }
-// } );
-//top nav function
-   $('.topnav').click(function () {
-       $('.topnav').not(this).find('#navlinks').hide();
-       $(this).find('#navlinks').toggle();
-   });
+const $nav = $('#navlinks');
+$nav.on('click', () => {
+  if ($nav.css('display', 'block')) {
+      $nav.css('display', 'none')
+  } else {
+    $nav.css('display', 'block')
+  }
+} );
 
   //
   // const $accordionTitles = $('.accordionTitle')
