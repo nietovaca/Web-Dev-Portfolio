@@ -1,12 +1,43 @@
-//with help from: https://www.w3schools.com
-function openNav() {
-  const nav = document.getElementById("navlinks");
-  if (nav.style.display === "block") {
-    nav.style.display = "none";
-  } else {
-    nav.style.display = "block";
+
+//Ghost button - not functional
+// let coll = document.getElementsByClassName("ghost-button");
+// let i;
+// for (i = 0; i < coll.length; i++) {
+//   coll[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     let content = this.nextElementSibling;
+//     if (content.style.maxHeight){
+//       content.style.maxHeight = null;
+//     } else {
+//       content.style.maxHeight = content.scrollHeight + "px";
+//     }
+//   });
+// }
+
+$(()=>{
+  //Nav with help from: https://www.w3schools.com
+  function openNav(){
+    const $nav = $('#navlinks');
+    if ($nav.style.display === "block") {
+      $nav.style.display = "none";
+    } else {
+      $nav.style.display = "block";
+    }
   }
-}
+$('.accordionItem').accordion({
+  "animate":true,
+  "collapsible":true
+});
+  //
+  // const $accordionTitles = $('.accordionTitle')
+  // $accordionTitles.each((accordionTitle) => {
+  //   accordionTitle.on('click', () => {
+  //     accordionTitle.toggleClass('open')
+  //   })
+  // })
+});
+
+
 // function openDiv() {
 //   let div = document.getElementById("content");
 //   if (div.style.display === "block") {
@@ -26,16 +57,3 @@ function openNav() {
 // }
 // preloadImages("/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_0782.jpg", "/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_0035.JPG", "/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_3084.jpeg", "/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_3248.jpeg" , "/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMGP4637.JPG" , "/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_7010.JPG");
 ////
-let coll = document.getElementsByClassName("ghost-button");
-let i;
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    let content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
-}
