@@ -53,7 +53,7 @@ html, body {
 /* Banner Image & Text - Home Page (with help from https://www.w3schools.com)*/
 
 .banner-img {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMG_0782.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMG_0782.jpg");
   background-color: black;
   height: 99%;
   background-position: center;
@@ -104,7 +104,7 @@ html, body {
   }
 /* Background Pg */
 .background-img {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Users/vanessa_nieto/Public/Portfolio/Home/IMG/IMGP4637.JPG");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMGP4637.JPG");
   background-color: black;
   height: 120%;
   background-position: center;
