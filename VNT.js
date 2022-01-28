@@ -7,14 +7,14 @@ function openNav() {
     nav.style.display = "block";
   }
 }
-function openDiv() {
-  let div = document.getElementById("content");
-  if (div.style.display === "block") {
-    div.style.display = "none";
-  } else {
-    div.style.display = "block"
-  }
-}
+// function openDiv() {
+//   let div = document.getElementById("content");
+//   if (div.style.display === "block") {
+//     div.style.display = "none";
+//   } else {
+//     div.style.display = "block"
+//   }
+// }
 
 //with help from https://www.webhostingsecretrevealed.net
 // let images = new Array();

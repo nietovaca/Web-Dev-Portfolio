@@ -6,39 +6,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Lexend:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/Users/vanessa_nieto/Public/WebDevPortfolio/Home/VNT.css">
-    <script src="VNT.js"></script>
+    <link rel="stylesheet" href="/Users/vanessa_nieto/Public/Portfolio/Root/VNT 2.css">
+    <link rel="stylesheet" href="/Users/vanessa_nieto/Public/Portfolio/Root/fontello-6b656514/css/fontello.css">
+    <script src="/Users/vanessa_nieto/Public/Portfolio/Root/VNT.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Vanessa Nieto Thrower Portfolio</title>
   </head>
   <body>
-      <div class="header">
-        <nav>
-          <a href="Background/VNTBackground.html">Background</a>
-          <a href="Resume/VNTResume.html">Resume</a>
-          <a href="Projs/VNTProjs.html">Projects</a>
-          <a href="#">Contact</a>
-        </nav>
+      <div class="topnav">
+          <a href="#" class="activemenu">Main</a>
+          <!-- hidding all navs other than main -->
+          <div id="navlinks">
+            <a href="Background/VNTBackground.html">Background</a>
+            <a href="Resume/VNTResume.html">Resume</a>
+            <a href="Projs/VNTProjs.html">Projects</a>
+          </div>
+          <a href="/Users/vanessa_nieto/Public/Portfolio/Root/VNT.js;" class="icon" onclick="openNav()"><i class="icon-align-justify"></i></a>
       </div>
-<div class="banner">
-    <div id="banner-img"></div>
+<div class="banner-img">
+    <div id="banner-text">
     <h1>Vanessa Nieto Thrower</h1>
-    <h2>Chingona Manifest</h2>
+    <h2>Web Developer</h2>
+    <a class="ghost-button">Contact Me <i class="icon-down-open-1"></i></a>
+    <!-- need to figure out how to make this move -->
+      <!-- <div id="content">
+        <i class="icon-mail-alt"></i>
+        <i class="icon-slack"></i>
+        <i class="icon-simplybuilt"></i>
+        <i class="icon-linkedin-squared"></i>
+        <i class="icon-github-circled"></i>
+      </div> -->
+    <a href="/Users/vanessa_nieto/Public/Portfolio/Root/VNT.js;" class="icon" onclick="openDiv()">
+    </div>
 </div>
-<div class="body">
-  <div class="navDiv1">
-    <button type="button" name="Background" class="bb">Background</button>
-  </div>
-  <div class="navDiv2">
-    <button type="button" name="Resume" class="bb">Resume</button>
-  </div>
-  <div class="navDiv3">
-    <button type="button" name="Projects" class="bb">Projects</button>
-  </div>
-  <div class="navDiv4">
-    <button type="button" name="Contact" class="bb">Contact</button>
-  </div>
-</div>
-
   </body>
 </html>
