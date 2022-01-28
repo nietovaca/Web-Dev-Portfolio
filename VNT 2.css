@@ -127,16 +127,20 @@ html, body {
   margin: 10px;
 }
 /* resume styling  */
-.container .resume-item {
-  /* not sure about this resume-item being flex */
-  display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
+.resume-img {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("IMG/IMG_3248.jpeg");
+  background-color: black;
+  height: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 li  {
   list-style-type: none;
   font-family: 'Lexend', sans-serif;
 }
+
 /* Headers */
 h1{
   font-family: 'Lexend Deca', sans-serif;
