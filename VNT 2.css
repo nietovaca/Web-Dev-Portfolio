@@ -94,14 +94,23 @@ html, body {
   font-family: 'Lexend Deca', sans-serif;
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
   }
-  .ghost-button:hover, .ghost-button:active {
-    background-color: orange;
-    background-color: rgba(255, 165, 0, 0.4);
-    border-color: orange;
-    border-color: rgba(255, 165, 0, 0.4);
-    transition: background-color 0.3s ease-in, color 0.3s ease-in;
-    transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
-  }
+.ghost-button:hover, .ghost-button:active {
+  background-color: orange;
+  background-color: rgba(255, 165, 0, 0.4);
+  border-color: orange;
+  border-color: rgba(255, 165, 0, 0.4);
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  transition: background-color 0.3s ease-in, border-color 0.3s ease-in;
+}
+/* contact icon/links */
+#contactContent {
+  display: none;
+}
+#contactContent a {
+   color: inherit;
+   padding-right: 1.5em;
+}
+
 /* Background Pg */
 .background-img {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMGP4637.JPG");

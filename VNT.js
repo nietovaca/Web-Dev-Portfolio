@@ -15,10 +15,36 @@
 // }
 
 $(()=>{
+
 $('.accordionItem').accordion({
   "animate":true,
   "collapsible":true
 });
+
+//top nav function
+$('.topnav').click(function() {
+   $('.topnav').not(this).find('#navlinks').hide();
+   $(this).find('#navlinks').toggle();
+});
+
+// $('.ghost-button').accordion({
+//   "animate": true,
+//   "collapsible": true
+// })
+$('.ghost-button').on('click', () => {
+  $('#contactContent').show()
+});
+
+});
+
+//
+// const $accordionTitles = $('.accordionTitle')
+// $accordionTitles.each((accordionTitle) => {
+//   accordionTitle.on('click', () => {
+//     accordionTitle.toggleClass('open')
+//   })
+// })
+
 // const $nav = $('#navlinks');
 // $nav.on('click', () => {
 //   if ($nav.css('display', 'block')) {
@@ -27,20 +53,6 @@ $('.accordionItem').accordion({
 //     $nav.css('display', 'block')
 //   }
 // } );
-//top nav function
-   $('.topnav').click(function () {
-       $('.topnav').not(this).find('#navlinks').hide();
-       $(this).find('#navlinks').toggle();
-   });
-
-  //
-  // const $accordionTitles = $('.accordionTitle')
-  // $accordionTitles.each((accordionTitle) => {
-  //   accordionTitle.on('click', () => {
-  //     accordionTitle.toggleClass('open')
-  //   })
-  // })
-});
 
 //Nav with help from: https://www.w3schools.com
             // function openNav(){
