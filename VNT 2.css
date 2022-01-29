@@ -2,22 +2,8 @@ html, body {
   scroll-behavior: smooth;
   height: 100%;
 }
-@font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?64688355');
-  src: url('../font/fontello.eot?64688355#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?64688355') format('woff2'),
-       url('../font/fontello.woff?64688355') format('woff'),
-       url('../font/fontello.ttf?64688355') format('truetype'),
-       url('../font/fontello.svg?64688355#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* .icons {
-  font-family: Icons;
-} */
 
-/* Nav & Hamburger Nav */
+/* Hamburger Nav */
 .topnav {
   overflow: hidden;
   background-color: hotpink;
@@ -51,7 +37,6 @@ html, body {
   font-family: 'Lexend Deca', sans-serif;
 }
 /* Banner Image & Text - Home Page (with help from https://www.w3schools.com)*/
-
 .banner-img {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMG_0782.jpg");
   background-color: black;
@@ -137,36 +122,30 @@ html, body {
 }
 /* resume styling  */
 .resume-img {
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("IMG/IMG_3248.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   background-color: black;
-  height: 120%;
+  height: 200%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+.resume-img div {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.resume-img h2, h3 {
+  color: hotpink;
+}
 #EducationAccordion{
+  padding-top: 1em;
   margin-left: auto;
   margin-right: auto;
   max-width: 40em;
-  padding: 1.5em;
-  /* transform: translate(-50%, -50%); */
+  /* padding: .5em; */
   color: orange;
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
 }
-.accordionTitle {
-  /* indcates user can click on title */
-  cursor: pointer;
-  /* don't highlight text when clicking  */
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-/* .accordionTitle + .accordionContent {
-  display: none;
-} */
-
 
 li  {
   list-style-type: none;
@@ -183,7 +162,7 @@ h1{
 h2, h3 {
   font-family: 'Lexend', sans-serif;
   padding-top: 0px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
 }
 p {
   font-family: 'Lexend', sans-serif;
