@@ -1,19 +1,3 @@
-
-//Ghost button - not functional
-// let coll = document.getElementsByClassName("ghost-button");
-// let i;
-// for (i = 0; i < coll.length; i++) {
-//   coll[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
-//     let content = this.nextElementSibling;
-//     if (content.style.maxHeight){
-//       content.style.maxHeight = null;
-//     } else {
-//       content.style.maxHeight = content.scrollHeight + "px";
-//     }
-//   });
-// }
-
 $(()=>{
 
 //with help from SkillForge YouTube tutorial: https://www.youtube.com/watch?v=1cAgfPb6a_8
@@ -26,15 +10,15 @@ $('.accordionItem').accordion({
 
 });
 
-//Nav with help from: https://www.w3schools.com
+//Hamburger Nav with help from: https://www.w3schools.com
 $('.topnav').click(function() {
    $('.topnav').not(this).find('#navlinks').hide();
-   $(this).find('#navlinks').toggle();
+   $(this).find('#navlinks').toggle("slow");
 });
 
-//see about adding a timer for hiding
+//Contact Me button
 $('.ghost-button').on('click', () => {
-  $('#contactContent').show()
+  $('#contactContent').fadeToggle()
 });
 
 });
