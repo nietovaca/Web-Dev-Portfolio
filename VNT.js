@@ -1,6 +1,6 @@
 $(()=>{
 
-//with help from SkillForge YouTube tutorial: https://www.youtube.com/watch?v=1cAgfPb6a_8
+//Accordion Div with help from SkillForge YouTube tutorial (see readme.txt for citation)
 $('.accordionItem').accordion({
   "animate":true,
   "collapsible":true,
@@ -10,7 +10,7 @@ $('.accordionItem').accordion({
 
 });
 
-//Hamburger Nav with help from: https://www.w3schools.com
+//Hamburger Nav referenced w3schools.com
 $('.topnav').click(function() {
    $('.topnav').not(this).find('#navlinks').hide();
    $(this).find('#navlinks').toggle("slow");
@@ -21,22 +21,11 @@ $('.ghost-button').on('click', () => {
   $('#contactContent').fadeToggle()
 });
 
+//Home Button
+$(".homeButton").append("<button>").html('Home').addClass('ghost-button').attr('id', 'homeBtn')
+$('#homeBtn').on('click' , () => {
+  location.href='https://vacathrower.netlify.app/'
 });
+$(".homeButton").css('display', 'flex').css('justify-content', 'center').css("align-content", "center")
 
-// with help from https://perishablepress.com
-//see if there's a way to adopt a function for each page
-// const images = new Array()
-// 			function preload() {
-// 				for (i = 0; i < preload.arguments.length; i++) {
-// 					images[i] = new Image()
-// 					images[i].src = preload.arguments[i]
-// 				}
-// 			}
-// 			preload(
-// 				"IMG/IMG_0782.jpg",
-// 				"IMG/IMG_0035.JPG",
-// 				"IMG/IMG_3084.jpeg",
-//         "IMG/IMG_3248.jpeg",
-//         "IMG/IMGP4637.JPG",
-//         "IMG/IMG_7010.JPG"
-// 			)
+});
