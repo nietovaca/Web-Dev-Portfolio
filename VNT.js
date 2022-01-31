@@ -1,3 +1,7 @@
+function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+};
+
 $(()=>{
 
 //Accordion Div with help from SkillForge YouTube tutorial (see readme.txt for citation)

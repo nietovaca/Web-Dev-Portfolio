@@ -1,4 +1,10 @@
+Approach:
+I created a portfolio site that is both simple and easy to navigate. I wanted the user to engage with the page, but not be distracted by those interactions. I utilized jquery for navigation elements.
+
 Works Cited:
+website visit-counter:
+referenced this tutorial on how to use counterapi.xyz https://youtu.be/WTHrtiMEjk0
+
 ghost button reference:
 https://www.webfx.com/blog/web-design/ghost-buttons/
 
