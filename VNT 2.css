@@ -148,7 +148,7 @@ html, body {
 }
 /* resume styling  */
 .resume-img {
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url("IMG/IMG_7010.JPG");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMG_7010.JPG");
   background-color: black;
   min-height: calc(100% - 50px);
   background-position: center;
@@ -164,7 +164,7 @@ html, body {
   color: hotpink;
 }
 #accordion{
-  padding-top: 2em;
+  padding-top: 90px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -172,12 +172,12 @@ html, body {
   max-width: 40em;
   /* padding: .5em; */
   color: orange;
-  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+  /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)); */
 }
 
 /* PROJECT Pg */
 .project-img {
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("IMG/F1AA77F3-E70C-4E61-BB0A-CCF97A51DE7C.JPG");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/F1AA77F3-E70C-4E61-BB0A-CCF97A51DE7C.JPG");
   background-color: black;
   min-height: calc(100% - 50px);
   background-position: center;

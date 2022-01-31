@@ -1,3 +1,5 @@
+//see readme.txt for full list of references.
+//site counter created with help from codefoxx YouTube
 function websiteVisits(response) {
     document.querySelector("#visits").textContent = response.value;
 };
@@ -10,8 +12,6 @@ $('.accordionItem').accordion({
   "collapsible":true,
   active: 1,
   "heightStyle": "content",
-  "event": "mouseover"
-
 });
 
 //Hamburger Nav referenced w3schools.com
