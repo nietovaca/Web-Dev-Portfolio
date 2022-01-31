@@ -1,6 +1,7 @@
 html, body {
   scroll-behavior: smooth;
   height: 100%;
+  margin: 0;
 }
 
 /* Hamburger Nav */
@@ -100,21 +101,27 @@ html, body {
 .background-img {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMGP4637.JPG");
   background-color: black;
-  height: 120%;
-  background-position: center;
+  min-height: calc(100% - 50px);
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 #background-text {
   text-align: right;
-  position: absolute;
   max-width: 300px;
-  top: 60%;
-  left: 30%;
-  transform: translate(-50%, -50%);
+  /* change this to move text left  */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 90px;
   color: orange;
 }
+@media (min-width: 900px) {
+    #background-text {
+      transform: translateX(-50%)
+    }
+}
+
 #blurb {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
   padding: 20px;
