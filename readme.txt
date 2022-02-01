@@ -1,8 +1,8 @@
 Approach:
 I created a portfolio site that is both simple and easy to navigate.
 I wanted the user to engage with the page, but not be distracted by those interactions.
-I utilized jquery for navigation elements, javascript for the site counter.
-I am using scripts from jqueryUi library and api.countapi.xyz for some added functionality and simplicity.
+I utilized two API's in my site: 1) the site-visit counter is a simple counter API that helps track this information.
+2) the accordion widgit was added to hide complexity and improve functionality
 One area that I will need to revisit is my nav bar and ghost buttons - they are created as <a> tags,
 and for assistive tech-functionality and accessibility, I will be changing them to buttons.
 

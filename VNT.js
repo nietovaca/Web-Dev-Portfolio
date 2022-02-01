@@ -1,4 +1,5 @@
 //see readme.txt for full list of references.
+
 //site counter created with help from codefoxx YouTube
 function websiteVisits(response) {
     document.querySelector("#visits").textContent = response.value;
@@ -32,4 +33,9 @@ $('#homeBtn').on('click' , () => {
 });
 $(".homeButton").css('display', 'flex').css('justify-content', 'center').css("align-content", "center")
 
+//Download Resume Button
+$('#downloadPDF').on('click' , (e) => {
+  e.preventDefault();
+   window.location.href = 'https://drive.google.com/uc?id=14Ep7S7sbghEMXNefkSufTqTFwEHOO4hN&export=download'
+});
 });
