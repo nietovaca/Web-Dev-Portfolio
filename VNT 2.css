@@ -117,7 +117,6 @@ html, body {
 #background-text {
   text-align: right;
   max-width: 300px;
-  /* change this to move text left  */
   margin-left: auto;
   margin-right: auto;
   padding-top: 90px;
@@ -147,6 +146,15 @@ html, body {
   }
 }
 /* resume styling  */
+.resume {
+background-image: url("IMG/resumepic.png");
+height: 110vh;
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
 .resume-img {
   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("IMG/IMG_7010.JPG");
   background-color: black;
@@ -184,9 +192,7 @@ padding-left: 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 40em;
-  /* padding: .5em; */
   color: orange;
-  /* background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)); */
 }
 
 /* PROJECT Pg */
@@ -228,11 +234,7 @@ h3, h4 {
   color: orange;
 
 }
-/* h4 {
-  font-family: 'Lexend', sans-serif;
-  padding-top: 0px;
-  color: orange;
-} */
+
 p {
   font-family: 'Lexend', sans-serif;
   /* font-size: 1em; */
@@ -242,4 +244,27 @@ p {
 }
 #visits {
   color: yellow;
+}
+
+.teacherpet {
+  background-image: url('IMG/teacherpet.png');
+  min-height: 250px;
+  background-size: cover;
+}
+.audiophile {
+  background-image: url('IMG/audiophile.png');
+  min-height: 250px;
+  background-size: cover;
+}
+
+.jargin {
+  background-image: url('IMG/jargin.png');
+  min-height: 250px;
+  background-size: cover;
+}
+
+.motoswap {
+  background-image: url('IMG/motoswap.png');
+  min-height: 250px;
+  background-size: cover;
 }

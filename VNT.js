@@ -36,6 +36,6 @@ $(".homeButton").css('display', 'flex').css('justify-content', 'center').css("al
 //Download Resume Button
 $('#downloadPDF').on('click' , (e) => {
   e.preventDefault();
-   window.location.href = 'https://drive.google.com/uc?id=14Ep7S7sbghEMXNefkSufTqTFwEHOO4hN&export=download'
+   window.location.href = 'https://docs.google.com/document/d/e/2PACX-1vT-KoDmzj7x78LlWgXvu1KrNnbWOgcbCqJNCZ4_0hkHN_uMYurc1sfIAzZwTRhrIGt4Dn-qxkhL2JFt/pub'
 });
 });
